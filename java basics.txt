@@ -1,0 +1,41 @@
+public private and protected class declarations
+In Java, access modifiers are used to control the visibility of class members such as variables and methods. There are three access modifiers in Java: public, private, and protected.
+
+Public:
+Public members can be accessed from anywhere, including other classes, even if they are in a different package. Here is an example of a public class declaration:
+csharp
+Copy code
+public class MyClass {
+   public int myPublicVar;
+   
+   public void myPublicMethod() {
+      // method code here
+   }
+}
+In this example, the "MyClass" class has a public instance variable "myPublicVar" and a public instance method "myPublicMethod". These members can be accessed from anywhere in the code.
+
+Private:
+Private members can only be accessed within the same class. Here is an example of a private class declaration:
+csharp
+Copy code
+public class MyClass {
+   private int myPrivateVar;
+   
+   private void myPrivateMethod() {
+      // method code here
+   }
+}
+In this example, the "MyClass" class has a private instance variable "myPrivateVar" and a private instance method "myPrivateMethod". These members can only be accessed within the "MyClass" class.
+
+Protected:
+Protected members can be accessed within the same class, subclass, or within the same package. Here is an example of a protected class declaration:
+csharp
+Copy code
+public class MyClass {
+   protected int myProtectedVar;
+   
+   protected void myProtectedMethod() {
+      // method code here
+   }
+}
+In this example, the "MyClass" class has a protected instance variable "myProtectedVar" and a protected instance method "myProtectedMethod". These members can be accessed within the "MyClass" class, any subclass of "MyClass", or any class within the same package as "MyClass".

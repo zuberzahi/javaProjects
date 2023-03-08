@@ -1,0 +1,18 @@
+Copy code
+int count = 0;
+In this example, we declare a variable named "count" of type "int" and initialize it with a value of 0. This variable has local scope, which means it can only be accessed within the block of code where it was declared.
+
+Instance variable declaration:
+vbnet
+Copy code
+public class MyClass {
+   private String name;
+   public int age;
+}
+In this example, we define a class named "MyClass" with two instance variables: "name", which is declared with private access modifier and cannot be accessed outside of the class, and "age", which is declared with public access modifier and can be accessed from any class.
+
+Static variable declaration:
+java
+Copy code
+public class MyClass {
+   private static int count = 0;
